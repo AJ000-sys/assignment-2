@@ -1,0 +1,48 @@
+/* index.html */
+.logo{
+    margin: 10px auto;
+    padding: 50px;
+    border: 5px solid black;
+    width: 460px;
+    text-align: center;
+}
+
+.hero-section{
+    margin: 10px auto;
+    padding: 10px;
+    border: 5px solid black;
+    width: 450px;
+    text-align: center;
+}
+
+.events-grid{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 10px;
+    margin: 10px auto;
+    padding: 10px;
+    border: 5px solid black;
+    width: 450px;
+    text-align: center;
+}
+
+.about-section{
+    margin: 10px auto;
+    padding: 10px;
+    border: 5px solid black;
+    width: 450px;
+    text-align: center;
+}
+
+.about-benefits{
+    padding: 0;
+    margin: 10px 0 0;
+}
+
+.about-benefits li{
+    padding: 8px;
+    margin: 10px 0;
+    border: 2px solid black;
+}
+
+/* event.html */
