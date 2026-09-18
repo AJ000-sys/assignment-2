@@ -4,7 +4,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Events</title>
+    <title>The Annual Involvement Fair</title>
     <link rel="stylesheet" href="style.css">
 
 </head>
@@ -30,9 +30,13 @@
 
         <!-- Event Introduction -->
         <section id="event-intro" class="event-intro">
-            <img src="images/event1.jpg" alt="Event 1" class="event-hero-image">
+            <figure>
+                <img src="images/event1.jpg" alt="Students browsing club booths at the Involvement Fair" class="event-hero-image">
+                <figcaption>The Annual Involvement Fair brings together hundreds of student organizations</figcaption>
+            </figure>
             <h2>The Annual Involvement Fair</h2>
-            <p class="event-meta">Student Life & Engagement | Friday, January 16, 6:00pm | Student Union Building</p>
+            <p class="event-meta">Student Life & Engagement | <time datetime="2026-01-16T18:00">Friday, January 16,
+                    6:00pm</time> | Campus Park</p>
             <p>Welcome to your gateway to campus life. The Annual Involvement Fair is your one-stop opportunity to
                 connect, explore, and find your community.</p>
         </section>
@@ -55,10 +59,10 @@
 
                 <h3>Schedule</h3>
                 <ul class="event-schedule">
-                    <li>6:00 PM - Doors open and check-in</li>
-                    <li>6:30 PM - Welcome and opening remarks</li>
-                    <li>7:00 PM - Main activity</li>
-                    <li>8:30 PM - Closing and networking</li>
+                    <li><time datetime="2026-01-16T18:00">6:00 PM</time> - Check-in begins</li>
+                    <li><time datetime="2026-01-16T18:30">6:30 PM</time> - Welcome and opening remarks</li>
+                    <li><time datetime="2026-01-16T19:00">7:00 PM</time> - Main activity</li>
+                    <li><time datetime="2026-01-16T20:30">8:30 PM</time> - Closing and networking</li>
                 </ul>
 
                 <h3>Accessibility and Participation</h3>
@@ -70,9 +74,10 @@
             <aside class="event-sidebar">
                 <h3>Event Info</h3>
                 <ul class="event-info-list">
-                    <li><strong>Date:</strong> January 16, 2026</li>
-                    <li><strong>Time:</strong> 6:00 PM - 9:00 PM</li>
-                    <li><strong>Location:</strong> Student Union, Room 200</li>
+                    <li><strong>Date:</strong> <time datetime="2026-01-16">January 16, 2026</time></li>
+                    <li><strong>Time:</strong> <time datetime="2026-01-16T18:00">6:00 PM</time> - <time
+                            datetime="2026-01-16T21:00">9:00 PM</time></li>
+                    <li><strong>Location:</strong> Campus Park</li>
                     <li><strong>Organizer:</strong> Office of Student Engagement</li>
                     <li><strong>Admission:</strong> Free for all students</li>
                 </ul>
@@ -85,26 +90,36 @@
         <section id="related-events" class="related-events">
             <h2>Related Events</h2>
             <div class="related-events-list">
-                <div class="related-event-card">
-                    <img src="images/event2.jpg" alt="Event 2">
-                    <h3>Event 2</h3>
-                    <p class="event-meta">Date/Time | Location</p>
-                    <a href="event.html" class="btn">Learn More</a>
-                </div>
 
-                <div class="related-event-card">
-                    <img src="images/event3.jpg" alt="Event 3">
-                    <h3>Event 3</h3>
-                    <p class="event-meta">Date/Time | Location</p>
-                    <a href="event.html" class="btn">Learn More</a>
-                </div>
+                <article class="related-event-card">
+                    <figure>
+                        <img src="images/event2.jpeg" alt="Performers on stage at the Multicultural Festival">
+                    </figure>
+                    <h3>Multicultural Festival</h3>
+                    <p class="event-meta"><time datetime="2026-01-21T15:00">Wednesday, January 21, 3:00pm</time> |
+                        Campus Baseball Field</p>
+                    <a href="event.html" class="btn">View Details</a>
+                </article>
 
-                <div class="related-event-card">
-                    <img src="images/event4.jpg" alt="Event 4">
-                    <h3>Event 4</h3>
-                    <p class="event-meta">Date/Time | Location</p>
-                    <a href="event.html" class="btn">Learn More</a>
-                </div>
+                <article class="related-event-card">
+                    <figure>
+                        <img src="images/event3.png" alt="Students enjoying a late-night breakfast in the dining hall">
+                    </figure>
+                    <h3>Late Night Breakfast</h3>
+                    <p class="event-meta"><time datetime="2026-02-20T22:00">Friday, February 20, 10:00pm</time> | Dining
+                        Hall</p>
+                    <a href="event.html" class="btn">View Details</a>
+                </article>
+
+                <article class="related-event-card">
+                    <figure>
+                        <img src="images/event4.jpg" alt="Students participating in a leadership workshop activity">
+                    </figure>
+                    <h3>Leadership Development Workshop</h3>
+                    <p class="event-meta"><time datetime="2026-02-23T16:00">Monday, February 23, 4:00pm</time> | Student
+                        Union Building</p>
+                    <a href="event.html" class="btn">View Details</a>
+                </article>
 
             </div>
         </section>
@@ -113,7 +128,7 @@
 
     <!-- Footer -->
     <footer>
-        <p>@ 2026 Event Management. All rights reserved.</p>
+        <p>&copy; 2026 Event Management. All rights reserved.</p>
         <p>Contact us: <a href="mailto:info@eventmanagement.example">info@eventmanagement.example</a></p>
         <nav class="footer-nav">
             <ul>
